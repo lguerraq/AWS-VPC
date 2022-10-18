@@ -1,6 +1,24 @@
 # AWS-VPC
 Create VPC with Terraform
 
+### Init terraform
+ *  terraform init
+
+ ### Validate terraform
+ *  terraform validate
+
+ ### Fmt terraform
+ *  terraform fmt
+
+### Plan terraform by environment
+ *  terraform plan -var-file environment-vars/prd.tfvars
+
+### Apply terraform by environment
+ *  terraform apply -var-file environment-vars/prd.tfvars
+
+### Destroy terraform by environment
+ *  terraform destroy -var-file environment-vars/prd.tfvars
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
